@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Purpose is a unique and beautiful collection of UI elements that are all flexible and modular. A complete and customizable solution to building the website of your dreams.">
   <meta name="author" content="Webpixels">
-  <title>Purpose Website UI Kit - Purpose is a unique and beautiful collection of UI elements that are all flexible and modular. A complete and customizable solution to building the website of your dreams.</title>
+  <title>FLORIE- HOME|Invest And Pensions</title>
   <!-- Favicon -->
   <link rel="icon" href="{{asset('assets_new/img/brand/favicon.png')}}" type="image/png">
   <!-- Font Awesome 5 -->
@@ -609,9 +609,9 @@
             </li>
             <li class="nav-item mr-0">
               <a href="https://themes.getbootstrap.com/product/purpose-website-ui-kit/" target="_blank" class="nav-link d-lg-none">Purchase now</a>
-              <a href="https://themes.getbootstrap.com/product/purpose-website-ui-kit/" target="_blank" class="btn btn-sm btn-white rounded-pill btn-icon rounded-pill d-none d-lg-inline-flex" data-toggle="tooltip" data-placement="left" title="Go to Bootstrap Themes">
-                <span class="btn-inner--icon"><i class="fas fa-shopping-cart"></i></span>
-                <span class="btn-inner--text">Purchase now</span>
+              <a href="{{ url('user/login') }}" target="_blank" class="btn btn-sm btn-white rounded-pill btn-icon rounded-pill d-none d-lg-inline-flex" data-toggle="tooltip" data-placement="left" title="Get Started">
+                <span class="btn-inner--icon"><i class="fas fa-sign-in-alt"></i></span>
+                <span class="btn-inner--text">Login</span>
               </a>
             </li>
           </ul>
@@ -694,25 +694,25 @@
               <div class="d-none d-lg-block mb-4">
                 <div class="alert alert-modern alert-dark">
                   <span class="badge badge-danger badge-pill">
-                    Hot
+                    New
                   </span>
-                  <span class="alert-content">Dark mode, awesome shortcode library and more.</span>
+                  <span class="alert-content">Decentralized finance trades DeFi, now in portfolio!</span>
                 </div>
               </div>
               <div>
                 <h2 class="text-white mb-4">
-                  <span class="display-4 font-weight-light">See it. Love it</span>
-                  <span class="d-block">Purpose <strong class="font-weight-light">Website UI Kit</strong></span>
+                  <span class="display-4 font-weight-light">Future. Finance.</span>
+                  <span class="d-block">Florie <strong class="font-weight-light">does it better</strong></span>
                 </h2>
-                <p class="lead text-white">A unique and beautiful collection of UI elements that are all flexible and modular. A complete and customizable solution to building the website of your dreams.</p>
+                <p class="lead text-white">A unique, innovative and non-custodial liquidity protocol for earning interest on deposits, monitored virtual assets and specialized trade pairs. A complete solution for an assured path to financial stability.</p>
                 <div class="mt-5">
-                  <a href="#sct-page-examples" class="btn btn-white rounded-pill hover-translate-y-n3 btn-icon mr-sm-4 scroll-me">
-                    <span class="btn-inner--text">Page Examples</span>
+                  <a href="{{ url('user/register') }}" class="btn btn-white rounded-pill hover-translate-y-n3 btn-icon mr-sm-4 scroll-me">
+                    <span class="btn-inner--text">Get Started</span>
                     <span class="btn-inner--icon"><i class="fas fa-angle-right"></i></span>
                   </a>
-                  <a href="#sct-features" class="btn btn-outline-white rounded-pill hover-translate-y-n3 btn-icon d-none d-xl-inline-block scroll-me">
+                  <a href="{{ url('user/register') }}" class="btn btn-outline-white rounded-pill hover-translate-y-n3 btn-icon d-none d-xl-inline-block scroll-me">
                     <span class="btn-inner--icon"><i class="fas fa-file-alt"></i></span>
-                    <span class="btn-inner--text">More Features</span>
+                    <span class="btn-inner--text">Learn More</span>
                   </a>
                 </div>
               </div>
@@ -736,12 +736,12 @@
                   <section class="slice slice-lg">
                     <div class="container">
                       <div class="text-center">
-                        <h1>It's time to change the game</h1>
+                        <h1>We've redefined the profit scheme</h1>
                         <div class="fluid-paragraph mt-4">
                           <p class="lead text-muted lh-180">
-                            Purpose is a great UI package based on Bootstrap 4 that includes the most important components and features so you can jumpstart the hard work and get right to the website creation fast and easy.
+                            Let our smart order routing technology source the best available Crypto market assets with an outstanding speed of execution from across the most popular DeFi projects worldwide. We ensure minimal counterparty risk, though inevitable. At Florie Invest, we bear all liquidation risks and deliver positive results at all times.
                           </p>
-                          <a href="#" class="btn btn-dark btn-icon rounded-pill hover-scale-110 mt-5">
+                          <a href="{{ url('user/register') }}" class="btn btn-dark btn-icon rounded-pill hover-scale-110 mt-5">
                             <span class="btn-inner--text">Let's get started</span>
                             <span class="btn-inner--icon"><i class="fas fa-angle-right"></i></span>
                           </a>
@@ -761,9 +761,9 @@
             <section class="slice slice-lg">
               <div class="container">
                 <div class="mb-5 text-center">
-                  <h3 class=" mt-4">Features that you really love</h3>
+                  <h3 class=" mt-4">Features keeping you assured</h3>
                   <div class="fluid-paragraph mt-3">
-                    <p class="lead lh-180">Start building fast, beautiful and modern looking websites in no time using our theme.</p>
+                    <p class="lead lh-180">Over time, we've grown to research and incorporate new sustainable strategies, ensuring longetivity and success.</p>
                   </div>
                 </div>
                 <div class="row">
@@ -773,11 +773,11 @@
                         <div class="">
                           <div class="pb-5">
                             <div class="icon bg-white text-primary rounded-circle icon-lg icon-shape shadow">
-                              <i class="fab fa-twitter"></i>
+                              <i class="fas fa-shield-alt"></i>
                             </div>
                           </div>
-                          <h5 class="font-weight-bold">Based on Bootstrap</h5>
-                          <p class="mt-2 mb-0">Purpose is a great free UI package based on Bootstrap 4 that includes the most important components and features.</p>
+                          <h5 class="font-weight-bold">Secure Framework</h5>
+                          <p class="mt-2 mb-0">We are committed to providing the highest level of security across all aspects of our services, such as tamper-proof hardware, certified and geo-redundant data centres, integrated approval frameworks.</p>
                           <a href="#" class="d-inline-block link link-underline-primary text-primary mt-4">Find out more</a>
                         </div>
                       </div>
@@ -789,11 +789,11 @@
                         <div class="">
                           <div class="pb-5">
                             <div class="icon bg-white text-success rounded-circle icon-lg icon-shape shadow">
-                              <i class="fab fa-sass"></i>
+                              <i class="fas fa-network-wired"></i>
                             </div>
                           </div>
-                          <h5 class="font-weight-bold">Built with Sass</h5>
-                          <p class="mt-2 mb-0">Purpose is a great free UI package based on Bootstrap 4 that includes the most important components and features.</p>
+                          <h5 class="font-weight-bold">Vast Integrations</h5>
+                          <p class="mt-2 mb-0">Our solutions are seamlessly integrated into existing environments such as core banking systems, cryptocurrency exchanges, smart contract web sockets and much more.</p>
                           <a href="#" class="d-inline-block link link-underline-success text-success mt-4">Find out more</a>
                         </div>
                       </div>
@@ -805,11 +805,11 @@
                         <div class="">
                           <div class="pb-5">
                             <div class="icon bg-white text-danger rounded-circle icon-lg icon-shape shadow">
-                              <i class="fas fa-code"></i>
+                              <i class="fas fa-file-invoice"></i>
                             </div>
                           </div>
-                          <h5 class="font-weight-bold">Tones of variables</h5>
-                          <p class="mt-2 mb-0">Purpose is a great free UI package based on Bootstrap 4 that includes the most important components and features.</p>
+                          <h5 class="font-weight-bold">Audit Reports</h5>
+                          <p class="mt-2 mb-0">Duijnborgh Audit B.V. audits our organisation and publishes a SOC 2 / ISAE 3000 Type 2 report. Pen tests and security reviews are conducted by major security firms.</p>
                           <a href="#" class="d-inline-block link link-underline-danger text-danger mt-4">Find out more</a>
                         </div>
                       </div>
@@ -823,11 +823,11 @@
                         <div class="">
                           <div class="pb-5">
                             <div class="icon bg-white text-primary rounded-circle icon-lg icon-shape shadow">
-                              <i class="fas fa-tint"></i>
+                              <i class="fab fa-battle-net"></i>
                             </div>
                           </div>
-                          <h5 class="font-weight-bold">Extended color palette</h5>
-                          <p class="mt-2 mb-0">Purpose is a great free UI package based on Bootstrap 4 that includes the most important components and features.</p>
+                          <h5 class="font-weight-bold">Vaults</h5>
+                          <p class="mt-2 mb-0">Capital pools that automatically generate yield based on opportunities present in the market. Vaults benefit users by socializing gas costs, automating the yield generation and rebalancing process, and automatically shifting capital as opportunities arise. End users also do not need to have a proficient knowledge of the underlying protocols involved or DeFi, thus the Vaults represent a passive-investing strategy.</p>
                           <a href="#" class="d-inline-block link link-underline-primary text-primary mt-4">Find out more</a>
                         </div>
                       </div>
@@ -842,8 +842,8 @@
                               <i class="fas fa-box-open"></i>
                             </div>
                           </div>
-                          <h5 class="font-weight-bold">Integrated plugins</h5>
-                          <p class="mt-2 mb-0">Purpose is a great free UI package based on Bootstrap 4 that includes the most important components and features.</p>
+                          <h5 class="font-weight-bold">DeFi Integrations</h5>
+                          <p class="mt-2 mb-0">Decentralized applications are projects that focus on disrupting financial intermediaries. DeFi projects are working to increase the speed and automation of tools similar to traditional centralized systems to make them more efficient. One of the trends in the DeFi space adopted by Floie is "yield farming," a process that lets users of decentralized applications get rewarded with tokens and yield on top of liquidity supplied to dapps, resulting in unusually high return rates.</p>
                           <a href="#" class="d-inline-block link link-underline-info text-info mt-4">Find out more</a>
                         </div>
                       </div>
@@ -858,8 +858,8 @@
                               <i class="fas fa-comment"></i>
                             </div>
                           </div>
-                          <h5 class="font-weight-bold">Friendly support</h5>
-                          <p class="mt-2 mb-0">Purpose is a great free UI package based on Bootstrap 4 that includes the most important components and features.</p>
+                          <h5 class="font-weight-bold">Active Support</h5>
+                          <p class="mt-2 mb-0">Our expertly trained support team is ready to help you get setup, answer your questions and solve your problems 24/7 via phone, email or online live chat. Historically, we handle all requests in due time, and over 85% of issues are resolved on the first instance. The live-chat system provides quick and instant access to a service agent just when you need it most.</p>
                           <a href="#" class="d-inline-block link link-underline-warning text-warning mt-4">Find out more</a>
                         </div>
                       </div>
@@ -881,8 +881,8 @@
                 </div>
                 <div class="col-lg-5">
                   <div class="pr-md-4">
-                    <h3 class="font-weight-light">Built for <strong class="font-weight-700">awesomeness</strong></h3>
-                    <p class="lead mb-5">We use the latest technologies and tools in order to create a better code that not only works great, but it is easy easy to work with too.</p>
+                    <h3 class="font-weight-light">Built with <strong class="font-weight-700">intelligence</strong></h3>
+                    <p class="lead mb-5">Your Dashboard presents An Intuitive web experience promoting ease of access to your favorite pages and logs to best keep you informed.</p>
                     <div class="card">
                       <div class="card-body py-4">
                         <div class="d-flex align-items-start">
@@ -891,7 +891,7 @@
                           </div>
                           <div class="icon-text pl-4">
                             <h5 class="ma-0 ">Created with the latest technologies</h5>
-                            <p class="mb-0">We use the latest technologies and tools in order to create a better code that not only works great, but it is easy easy to work with too.</p>
+                            <p class="mb-0">Our backend software developed specially for plotting technical and analytic data keeps our staff up to date on the ever changing market trends in real time.</p>
                           </div>
                         </div>
                       </div>
@@ -903,8 +903,8 @@
                             <i class="fab fa-node-js"></i>
                           </div>
                           <div class="icon-text pl-4">
-                            <h5 class="ma-0 ">Built by developers for developers</h5>
-                            <p class="mb-0">You don't only need a theme, but also great tools in order to ease the process. And this is exactly what we offer you.</p>
+                            <h5 class="ma-0 ">Fast and Responsive</h5>
+                            <p class="mb-0">Get instant access to your Investment dashboard on your computer and on the go, your dashboard easily adapts to the device in use on commonly supported browsers.</p>
                           </div>
                         </div>
                       </div>
@@ -1076,14 +1076,14 @@
         <!-- Pricing -->
         <span id="2_feature"></span>
         <div>
-           <!-- Feature 2nd phase -->
+           <!-- Feature 2nd phase -->ygb 
           <div id="features-features-13" title="features/features-13.html">
             <section class="slice slice-lg bg-gradient-primary">
               <div class="container">
                 <div class="mb-5 text-center">
-                  <h3 class="text-white mt-4">Powerful features</h3>
+                  <h3 class="text-white mt-4">Profit on the go!</h3>
                   <div class="fluid-paragraph mt-3">
-                    <p class="lead lh-180 text-white">Start building fast, beautiful and modern looking websites in no time using our theme.</p>
+                    <p class="lead lh-180 text-white">With our mobile applications you can easily log on to access your dashboard at any time, enjoying the convenience of transactions and profile operation as you go. Available soon on Android & iOS! </p>
                   </div>
                 </div>
                 <div class="row row-grid align-items-center">
@@ -1095,8 +1095,8 @@
                         </div>
                       </div>
                       <div class="icon-text">
-                        <h5 class="h5 text-white">Responsive web design</h5>
-                        <p class="mb-0 text-white">Modular and interchangable componente between layouts and even demos.</p>
+                        <h5 class="h5 text-white">Intuitive app design</h5>
+                        <p class="mb-0 text-white">Modular and interchangable components between layouts and suggestive actions within screens.</p>
                       </div>
                     </div>
                     <div class="d-flex align-items-start mb-5">
@@ -1106,8 +1106,8 @@
                         </div>
                       </div>
                       <div class="icon-text">
-                        <h5 class="text-white">Loaded with features</h5>
-                        <p class="mb-0 text-white">Modular and interchangable componente between layouts and even demos.</p>
+                        <h5 class="text-white">Feature packed</h5>
+                        <p class="mb-0 text-white">Exciting features including logs and analytics to help track your portfolio and its management..</p>
                       </div>
                     </div>
                     <div class="d-flex align-items-start">
@@ -1117,9 +1117,9 @@
                         </div>
                       </div>
                       <div class="icon-text">
-                        <h5 class="text-white">Friendly online support</h5>
-                        <p class="mb-0 text-white">Modular and interchangable componente between layouts and even demos.</p>
-                      </div>
+                        <h5 class="text-white">Integrated support system</h5>
+                        <p class="mb-0 text-white">Make queries, get information and easily connect to a livechat agent directly from your mobile device..</p>
+                      </div> 
                     </div>
                   </div>
                   <div class="col-lg-4">
@@ -1135,8 +1135,8 @@
                         </div>
                       </div>
                       <div class="icon-text">
-                        <h5 class="text-white">Free updates forever</h5>
-                        <p class="mb-0 text-white">Modular and interchangable componente between layouts and even demos.</p>
+                        <h5 class="text-white">Bug free updates</h5>
+                        <p class="mb-0 text-white">We squash bugs and review app frequently to release updates that delivers the experience you desire.</p>
                       </div>
                     </div>
                     <div class="d-flex align-items-start mb-5">
@@ -1146,8 +1146,8 @@
                         </div>
                       </div>
                       <div class="icon-text">
-                        <h5 class="text-white">Built with Sass</h5>
-                        <p class="mb-0 text-white">Modular and interchangable componente between layouts and even demos.</p>
+                        <h5 class="text-white">Mobile OS Compatible</h5>
+                        <p class="mb-0 text-white">Android user? iOS user?, we've got you covered on both systems!.</p>
                       </div>
                     </div>
                     <div class="d-flex align-items-start">
@@ -1157,8 +1157,8 @@
                         </div>
                       </div>
                       <div class="icon-text">
-                        <h5 class="text-white">Infinite colors</h5>
-                        <p class="mb-0 text-white">Modular and interchangable componente between layouts and even demos.</p>
+                        <h5 class="text-white">Community Feedback driven</h5>
+                        <p class="mb-0 text-white">We listen to your feedback on app performance and user experience. Desired features are implemented based on popular and mandatory demand.</p>
                       </div>
                     </div>
                   </div>
@@ -1179,9 +1179,9 @@
           <section class="slice slice-lg">
             <div class="container">
               <div class="mb-5 text-center">
-                <h3 class=" mt-4">Subscribe for weekly news</h3>
+                <h3 class=" mt-4">Subscribe to our newsletter</h3>
                 <div class="fluid-paragraph mt-3">
-                  <p class="lead lh-180">Customization has never been easier. Purpose has all the right tools in order to make your website building process a breeze.</p>
+                  <p class="lead lh-180">Stay informed on market activity, Token releases, DeFi Charts, Financial advice and much more. Your mail box never felt better!</p>
                 </div>
               </div>
               <div class="row justify-content-center">
@@ -1212,9 +1212,9 @@
            <section class="slice slice-lg">
              <div class="container">
                <div class="mb-5 text-center">
-                 <h3 class=" mt-4">The awesome team</h3>
+                 <h3 class=" mt-4">Our Top Team</h3>
                  <div class="fluid-paragraph mt-3">
-                   <p class="lead lh-180">Start building fast, beautiful and modern looking websites in no time using our theme.</p>
+                   <p class="lead lh-180">Meet our top officials and understand our driving force, from opening new doors and concepting new ideas to sustaining a better administration at progressive levels.</p>
                  </div>
                </div>
                <div class="row row-grid">
@@ -1271,60 +1271,7 @@
                    </div>
                  </div>
                </div>
-               <div class="row row-grid">
-                 <div class="col-lg-3">
-                   <div data-animate-hover="2">
-                     <div class="animate-this">
-                       <a href="#">
-                         <img alt="Image placeholder" class="img-fluid rounded shadow" src="assets_new/img/theme/light/team-5-800x800.jpg">
-                       </a>
-                     </div>
-                     <div class="mt-3">
-                       <h5 class="card-title mb-0">Danielle Levin</h5>
-                       <p class="text-muted mb-0">CTO</p>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="col-lg-3">
-                   <div data-animate-hover="2">
-                     <div class="animate-this">
-                       <a href="#">
-                         <img alt="Image placeholder" class="img-fluid rounded shadow" src="assets_new/img/theme/light/team-6-800x800.jpg">
-                       </a>
-                     </div>
-                     <div class="mt-3">
-                       <h5 class="card-title mb-0">Martin Gray</h5>
-                       <p class="text-muted mb-0">CTO</p>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="col-lg-3">
-                   <div data-animate-hover="2">
-                     <div class="animate-this">
-                       <a href="#">
-                         <img alt="Image placeholder" class="img-fluid rounded shadow" src="assets_new/img/theme/light/team-7-800x800.jpg">
-                       </a>
-                     </div>
-                     <div class="mt-3">
-                       <h5 class="card-title mb-0">George Squier</h5>
-                       <p class="text-muted mb-0">CTO</p>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="col-lg-3">
-                   <div data-animate-hover="2">
-                     <div class="animate-this">
-                       <a href="#">
-                         <img alt="Image placeholder" class="img-fluid rounded shadow" src="assets_new/img/theme/light/team-8-800x800.jpg">
-                       </a>
-                     </div>
-                     <div class="mt-3">
-                       <h5 class="card-title mb-0">Jesse Stevens</h5>
-                       <p class="text-muted mb-0">CTO</p>
-                     </div>
-                   </div>
-                 </div>
-               </div>
+               
              </div>
            </section>
          </div>
@@ -1339,9 +1286,9 @@
           <section class="slice slice-lg">
             <div class="container">
               <div class="mb-5 text-center">
-                <h3 class=" mt-4">What our customers say</h3>
+                <h3 class=" mt-4">What our customers say!</h3>
                 <div class="fluid-paragraph mt-3">
-                  <p class="lead lh-180">Start building fast, beautiful and modern looking websites in no time using our theme.</p>
+                  <p class="lead lh-180">Outlining some first hand experience from our clients! Read their testimonials. (All testimonials on this website are completely in the client's words and devoid of modification whatsoever)</p>
                 </div>
               </div>
               <div class="row justify-content-center">
@@ -1357,11 +1304,11 @@
                                   <img alt="Image placeholder" src="assets_new/img/theme/light/team-1-800x800.jpg" class="avatar  rounded-circle">
                                 </div>
                                 <div class="pl-3">
-                                  <h5 class="h6 mb-0">Heather Wright</h5>
-                                  <small class="d-block text-muted">Google</small>
+                                  <h5 class="h6 mb-0">Ayman Klaas</h5>
+                                  <small class="d-block text-muted">Financial analyst</small>
                                 </div>
                               </div>
-                              <p class="mt-4 lh-180">Amazing template! All-in-one, clean code, beautiful design, and really not hard to work with.Highly recommended for any kind on website.</p>
+                              <p class="mt-4 lh-180">Florie as a pension provider is indeed great, but florie into the crypto currency space is all I have ever sought for. I am indeed impressed with the outstanding performance so far!.</p>
                               <span class="static-rating static-rating-sm">
                                 <i class="star fas fa-star voted"></i>
                                 <i class="star fas fa-star voted"></i>
@@ -1380,11 +1327,11 @@
                                   <img alt="Image placeholder" src="assets_new/img/theme/light/team-2-800x800.jpg" class="avatar  rounded-circle">
                                 </div>
                                 <div class="pl-3">
-                                  <h5 class="h6 mb-0">Monroe Parker</h5>
-                                  <small class="d-block text-muted">Apple</small>
+                                  <h5 class="h6 mb-0">Aaltje llana</h5>
+                                  <small class="d-block text-muted">Retired Fireman</small>
                                 </div>
                               </div>
-                              <p class="mt-4 lh-180">Amazing template! All-in-one, clean code, beautiful design, and really not hard to work with.Highly recommended for any kind on website.</p>
+                              <p class="mt-4 lh-180">Can’t say I have had a bad experience yet, at least all is in terms with the financial improvement they are obliged to provide. I’d stay a longer time with this company.</p>
                               <span class="static-rating static-rating-sm">
                                 <i class="star fas fa-star voted"></i>
                                 <i class="star fas fa-star voted"></i>
@@ -1403,11 +1350,11 @@
                                   <img alt="Image placeholder" src="assets_new/img/theme/light/team-3-800x800.jpg" class="avatar  rounded-circle">
                                 </div>
                                 <div class="pl-3">
-                                  <h5 class="h6 mb-0">John Sullivan</h5>
-                                  <small class="d-block text-muted">Amazon</small>
+                                  <h5 class="h6 mb-0">Kendrick Duncan</h5>
+                                  <small class="d-block text-muted">Walmart Store manager</small>
                                 </div>
                               </div>
-                              <p class="mt-4 lh-180">Amazing template! All-in-one, clean code, beautiful design, and really not hard to work with.Highly recommended for any kind on website.</p>
+                              <p class="mt-4 lh-180"> Top Notch is the description for their service, customer support is first class indeed and apparently the team seems to be well informed as I have posed even the toughest situations and was well clarified. This is merely my personal thoughts though!</p>
                               <span class="static-rating static-rating-sm">
                                 <i class="star fas fa-star voted"></i>
                                 <i class="star fas fa-star voted"></i>
@@ -1426,11 +1373,11 @@
                                   <img alt="Image placeholder" src="assets_new/img/theme/light/team-4-800x800.jpg" class="avatar  rounded-circle">
                                 </div>
                                 <div class="pl-3">
-                                  <h5 class="h6 mb-0">James Lewis</h5>
-                                  <small class="d-block text-muted">Google</small>
+                                  <h5 class="h6 mb-0">Robert Olaf</h5>
+                                  <small class="d-block text-muted">Independent Forex Trader</small>
                                 </div>
                               </div>
-                              <p class="mt-4 lh-180">Amazing template! All-in-one, clean code, beautiful design, and really not hard to work with.Highly recommended for any kind on website.</p>
+                              <p class="mt-4 lh-180">     In the past Florie has performed well and still does, but I would welcome an innovation where I can directly connect my external wallets and Invest directly from them. All the same, I love what I get!.</p>
                               <span class="static-rating static-rating-sm">
                                 <i class="star fas fa-star voted"></i>
                                 <i class="star fas fa-star voted"></i>
@@ -1449,11 +1396,11 @@
                                   <img alt="Image placeholder" src="assets_new/img/theme/light/team-5-800x800.jpg" class="avatar  rounded-circle">
                                 </div>
                                 <div class="pl-3">
-                                  <h5 class="h6 mb-0">Julia Howe</h5>
+                                  <h5 class="h6 mb-0">Romero Caius</h5>
                                   <small class="d-block text-muted">Google</small>
                                 </div>
                               </div>
-                              <p class="mt-4 lh-180">Amazing template! All-in-one, clean code, beautiful design, and really not hard to work with.Highly recommended for any kind on website.</p>
+                              <p class="mt-4 lh-180">A few years and more for me! Best service compared to some 411 pension and invest companies I have tried out here. Florie has been a big breakthrough for my business projects and short term listings.</p>
                               <span class="static-rating static-rating-sm">
                                 <i class="star fas fa-star voted"></i>
                                 <i class="star fas fa-star voted"></i>
@@ -1485,7 +1432,7 @@
               <div class="mb-5 text-center">
                 <h3 class=" mt-4">Helpful answers</h3>
                 <div class="fluid-paragraph mt-3">
-                  <p class="lead lh-180">Start building fast, beautiful and modern looking websites in no time using our theme.</p>
+                  <p class="lead lh-180">We’ve put together some frequently asked questions for fast clarification and a smooth experience to your own journey.</p>
                 </div>
               </div>
               <div class="row">
@@ -1494,33 +1441,38 @@
                     <!-- Accordion card 1 -->
                     <div class="card">
                       <div class="card-header py-4" id="heading-1-1" data-toggle="collapse" role="button" data-target="#collapse-1-1" aria-expanded="false" aria-controls="collapse-1-1">
-                        <h6 class="mb-0"><i class="fas fa-file-pdf mr-3"></i>Which license do I need?</h6>
+                        <h6 class="mb-0"><i class="fas fa-file-pdf mr-3"></i>Who may open an account?</h6>
                       </div>
                       <div id="collapse-1-1" class="collapse" aria-labelledby="heading-1-1" data-parent="#accordion-1">
                         <div class="card-body">
-                          <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
+                          <p>Any individual above the age of 16, whether resident in the Netherlands or international, possessing a valid identification card and proof of address document for KYC.</p>
                         </div>
                       </div>
                     </div>
                     <!-- Accordion card 2 -->
                     <div class="card">
                       <div class="card-header py-4" id="heading-1-2" data-toggle="collapse" role="button" data-target="#collapse-1-2" aria-expanded="false" aria-controls="collapse-1-2">
-                        <h6 class="mb-0"><i class="fas fa-lock mr-3"></i>How do I get access to a theme?</h6>
+                        <h6 class="mb-0"><i class="fas fa-lock mr-3"></i>Is Florie Licensed to perform its operations?</h6>
                       </div>
                       <div id="collapse-1-2" class="collapse" aria-labelledby="heading-1-2" data-parent="#accordion-1">
                         <div class="card-body">
-                          <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
+                          <p>Yes, FlORIE BUSINESS VENTURES (Including FLORIE PENSIONS & FLORIE INVEST is registered under the Netherlands chamber of commerce. Registration details :
+<p>Florie BV, CoC 52550095 
+<p>Establishment no. 000022469729 
+<p>Wisentstraat 581402TW Bussum 
+<p>Confirm via: <a href="https://www.kvk.nl/orderstraat/bedrijf-kiezen/?orig=#!shop?&q=">Chamber Of commerce</a>
+</p>
                         </div>
                       </div>
                     </div>
                     <!-- Accordion card 3 -->
                     <div class="card">
                       <div class="card-header py-4" id="heading-1-3" data-toggle="collapse" role="button" data-target="#collapse-1-3" aria-expanded="false" aria-controls="collapse-1-3">
-                        <h6 class="mb-0"><i class="fas fa-credit-card mr-3"></i>How do I see previous orders?</h6>
+                        <h6 class="mb-0"><i class="fas fa-credit-card mr-3"></i>How is ‘risk’ managed with Florie?</h6>
                       </div>
                       <div id="collapse-1-3" class="collapse" aria-labelledby="heading-1-3" data-parent="#accordion-1">
                         <div class="card-body">
-                          <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
+                          <p>Like every business, the risk factor is inevitable hence the utilization of special analytic data and experienced forecasters in the Cryptocurrency and DeFi spaces. For every interest we remit to our clients, there is a percentage of profit store in our SAFE ASSET FUNDS which is used to augment for future shortcomings in profit expectation.</p>
                         </div>
                       </div>
                     </div>
