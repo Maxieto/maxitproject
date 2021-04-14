@@ -1,0 +1,15 @@
+Upload all folders and files into your public_html
+Create your DB Name, Username and password
+Open install page in your browser
+http://yoursite.com/install
+Follow the steps and make sure All required modules ENABLED
+in Second step, Fill DB Name, Username and password and admin login
+For Evanto Code, you can write anyting there.
+If DONE and installed, Remove install folder
+Then goto /core/config.database.php and change your DB configuration in Line 51,52,53
+DONE
+Your Admin area http://yoursite.com/admin
+
+
+Buy4script.com
+buy4script.cs@gmail.com

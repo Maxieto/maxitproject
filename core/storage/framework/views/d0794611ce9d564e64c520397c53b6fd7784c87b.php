@@ -1,0 +1,1 @@
+<?php echo $body; ?><?php /**PATH /home2/stevejenkins/public_html/invest/core/resources/views/partials/email.blade.php ENDPATH**/ ?>

@@ -1,0 +1,4 @@
+[2021-03-14 01:07:14] production.ERROR: Maximum execution time of 30 seconds exceeded {"userId":12,"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Maximum execution time of 30 seconds exceeded at /home2/stevejenkins/public_html/invest/core/vendor/laravel/framework/src/Illuminate/Support/Str.php:157)
+[stacktrace]
+#0 {main}
+"} 
