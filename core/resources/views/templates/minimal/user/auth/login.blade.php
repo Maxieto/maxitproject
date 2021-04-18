@@ -26,7 +26,7 @@
       <div class="container px-lg-0">
         <!-- Logo -->
         <a class="navbar-brand mr-lg-5" href="{{ url('/') }}">
-          <img alt="Image placeholder" src="{{asset('assets_new/assets/img/brand/dark.png" id="navbar-logo') }}" style="height: 50px;">
+          <img alt="Image placeholder" src="{{asset('assets_new/img/brand/dark.png') }}" id="navbar-logo" style="height: 100px;">
         </a>
         <!-- Navbar collapse trigger -->
         <button class="navbar-toggler pr-0" type="button" data-toggle="collapse" data-target="#navbar-main-collapse" aria-controls="navbar-main-collapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,7 +49,7 @@
                       <div class="media d-flex align-items-center">
                         <!-- SVG icon -->
                         <figure style="width: 50px;">
-                          <img alt="Image placeholder" src="{{asset('assets_new//img/icons/essential/detailed/Code_2.svg')}}" class="svg-inject img-fluid" style="height: 50px;">
+                          <img alt="Image placeholder" src="{{asset('assets_new/img/icons/essential/detailed/Code_2.svg')}}" class="svg-inject img-fluid" style="height: 50px;">
                         </figure>
                         <!-- Media body -->
                         <div class="media-body ml-3">
@@ -233,7 +233,7 @@
                       <div class="media d-flex align-items-center">
                         <!-- SVG icon -->
                         <figure style="width: 50px;">
-                          <img alt="Image placeholder" src="{{asset('assets_new//img/icons/essential/detailed/Secure_Files.svg') }}" class="svg-inject img-fluid" style="height: 50px;">
+                          <img alt="Image placeholder" src="{{asset('assets_new/img/icons/essential/detailed/Secure_Files.svg') }}" class="svg-inject img-fluid" style="height: 50px;">
                         </figure>
                         <!-- Media body -->
                         <div class="media-body ml-3">
@@ -300,7 +300,7 @@
                       <div class="media d-flex align-items-center">
                         <!-- SVG icon -->
                         <figure style="width: 50px;">
-                          <img alt="Image placeholder" src="{{asset('assets_new//img/icons/essential/detailed/Task.svg') }}" class="svg-inject img-fluid" style="height: 50px;">
+                          <img alt="Image placeholder" src="{{asset('assets_new/img/icons/essential/detailed/Task.svg') }}" class="svg-inject img-fluid" style="height: 50px;">
                         </figure>
                         <!-- Media body -->
                         <div class="media-body ml-3">
@@ -442,7 +442,7 @@
                       <div class="media d-flex align-items-center">
                         <!-- SVG icon -->
                         <figure style="width: 50px;">
-                          <img alt="Image placeholder" src="{{asset('assets_new//img/icons/essential/detailed/Cog_Wheels.svg') }}" class="svg-inject img-fluid" style="height: 50px;">
+                          <img alt="Image placeholder" src="{{asset('assets_new/img/icons/essential/detailed/Cog_Wheels.svg') }}" class="svg-inject img-fluid" style="height: 50px;">
                         </figure>
                         <!-- Media body -->
                         <div class="media-body ml-3">
@@ -552,7 +552,7 @@
                       <div class="media d-flex align-items-center">
                         <!-- SVG icon -->
                         <figure style="width: 50px;">
-                          <img alt="Image placeholder" src="{{asset('assets_new//img/icons/essential/detailed/DOC_File.svg') }}" class="svg-inject img-fluid" style="height: 50px;">
+                          <img alt="Image placeholder" src="{{asset('assets_new/img/icons/essential/detailed/DOC_File.svg') }}" class="svg-inject img-fluid" style="height: 50px;">
                         </figure>
                         <!-- Media body -->
                         <div class="media-body ml-3">
@@ -730,15 +730,14 @@
                   </form>
                 </div>
                   <div class="card-footer px-md-5"><small>Not registered?</small>
-                  <a href="{{ url('user/register') }}" class="small font-weight-bold">Create account</a> Forget Your Password
-                  <a href="{{ url('user/password/reset') }}" class="small font-weight-bold">Forget Password</a>
+                  <a href="{{ url('user/register') }}" class="small font-weight-bold">Create account</a>
                   </div>
               </div>
             </div>
             <div class="col-lg-5 order-lg-1 d-none d-lg-block">
               <blockquote>
-                <h3 class="h2 mb-4">Keep your face always toward the sunshine - and shadows will fall behind you.</h3>
-                <footer>— <cite class="text-lg">John Sulivan</cite></footer>
+                <h3 class="h2 mb-4">"With a good perspective on history, we can have a better understanding of the past and present, and thus a clear vision of the future." </h3>
+                <footer>— <cite class="text-lg">Carlos Slim Helu</cite></footer>
               </blockquote>
             </div>
           </div>

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Purpose is a unique and beautiful collection of UI elements that are all flexible and modular. A complete and customizable solution to building the website of your dreams.">
   <meta name="author" content="Webpixels">
-  <title>FLORIE- HOME|Invest And Pensions</title>
+  <title>HOME | FLORIE INVEST</title>
   <!-- Favicon -->
   <link rel="icon" href="<?php echo e(asset('assets_new/img/brand/favicon.png')); ?>" type="image/png">
   <!-- Font Awesome 5 -->
@@ -30,7 +30,7 @@
       <div class="container px-lg-0">
         <!-- Logo -->
         <a class="navbar-brand mr-lg-5" href="<?php echo e(url('/')); ?>">
-          <img alt="Image placeholder" src="<?php echo e(asset('assets_new/img/brand/white.png')); ?>" id="navbar-logo" style="height: 50px;">
+          <img alt="Image placeholder" src="<?php echo e(asset('assets_new/img/brand/white.png')); ?>" id="navbar-logo" style="height: 100px;">
         </a>
         <!-- Navbar collapse trigger -->
         <button class="navbar-toggler pr-0" type="button" data-toggle="collapse" data-target="#navbar-main-collapse" aria-controls="navbar-main-collapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -739,7 +739,7 @@
                         <h1>We've redefined the profit scheme</h1>
                         <div class="fluid-paragraph mt-4">
                           <p class="lead text-muted lh-180">
-                            Let our smart order routing technology source the best available Crypto market assets with an outstanding speed of execution from across the most popular DeFi projects worldwide. We ensure minimal counterparty risk, though inevitable. At Florie Invest, we bear all liquidation risks and deliver positive results at all times.
+                            Let our smart-order routing technology source the best available Crypto market assets with an outstanding speed of execution from across the most popular DeFi projects worldwide. We ensure minimal counterparty risk, though inevitable. At Florie Invest, we bear all liquidation risks and deliver positive results at all times.
                           </p>
                           <a href="<?php echo e(url('user/register')); ?>" class="btn btn-dark btn-icon rounded-pill hover-scale-110 mt-5">
                             <span class="btn-inner--text">Let's get started</span>
@@ -881,7 +881,7 @@
                 </div>
                 <div class="col-lg-5">
                   <div class="pr-md-4">
-                    <h3 class="font-weight-light">Built with <strong class="font-weight-700">intelligence</strong></h3>
+                    <h3 class="font-weight-light">Built with <strong class="font-weight-700">Intelligence & Expertise</strong></h3>
                     <p class="lead mb-5">Your Dashboard presents An Intuitive web experience promoting ease of access to your favorite pages and logs to best keep you informed.</p>
                     <div class="card">
                       <div class="card-body py-4">
@@ -930,14 +930,15 @@
                 <div class="row justify-content-center align-items-center">
                   
                 
-            <div class="col-lg-10 text-center">
-                    <h5 class=" font-weight-50 text-white text-uppercase" style="font-family: 'Oswald', sans-serif; font-size: 3rem;">
+            <div class="mb-5 text-center">
+                  <h3 class="text-white mt-4">
                      <?php echo e(__(@$calculationCaption->data_values->title)); ?>
 
-                    </h5>
+                    </h3>
 
-                    <p style="color: white; font-weight:bold "><?php echo e(@$calculationCaption->data_values->sub_title); ?></p>
-                  </div>
+                    <div class="fluid-paragraph mt-3">
+                    <p class="lead lh-180 text-white"><?php echo e(@$calculationCaption->data_values->sub_title); ?></p>
+                  </div></div>
 
             <form class="profit-form row justify-content-center">
                 <div class="form-group col-sm-6 col-md-4 col-lg-3">
@@ -1020,11 +1021,11 @@
                            <?php endif; ?>
                                 <?php if($data->capital_back_status == 1): ?>
                                  <li  style="margin-top: 8px">
-                                      <span class="badge badge-success"><?php echo app('translator')->get('Capital Will Return Back'); ?></span>
+                                      <span class="badge badge-success"><?php echo app('translator')->get('Capital Reimbursed'); ?></span>
                                     </li>
                                   <?php elseif($data->capital_back_status == 0): ?>
                                      <li style="margin-top: 8px" >
-                                      <span class="badge badge-warning"><?php echo app('translator')->get('Capital Will Store'); ?>
+                                      <span class="badge badge-warning"><?php echo app('translator')->get('Capital is lost'); ?>
                                      </span>
                                     </li>
 
@@ -1045,9 +1046,9 @@
                    <?php if($data->fixed_amount == 0): ?>
                        <li><?php echo app('translator')->get('Min.'); ?> <?php echo e(__($general->cur_sym)); ?><?php echo e(__($data->minimum)); ?>
 
-                          <span><?php echo app('translator')->get('Max:'); ?> <?php echo e(__($general->cur_sym)); ?><?php echo e(__($data->maximum)); ?>
+                          <span><p><?php echo app('translator')->get('Max:'); ?> <?php echo e(__($general->cur_sym)); ?><?php echo e(__($data->maximum)); ?>
 
-                          </span>
+                          </p></span>
                        </li>
                     <?php else: ?>
                         <li><?php echo app('translator')->get('Invest Amount'); ?>: <?php echo e(__($general->cur_sym)); ?><?php echo e(__($data->maximum)); ?>
@@ -1073,7 +1074,7 @@
         <!-- Pricing -->
         <span id="2_feature"></span>
         <div>
-           <!-- Feature 2nd phase -->ygb 
+           <!-- Feature 2nd phase -->
           <div id="features-features-13" title="features/features-13.html">
             <section class="slice slice-lg bg-gradient-primary">
               <div class="container">
@@ -1223,8 +1224,8 @@
                        </a>
                      </div>
                      <div class="mt-3">
-                       <h5 class="card-title mb-0">Heather Wright</h5>
-                       <p class="text-muted mb-0">CEO</p>
+                       <h5 class="card-title mb-0">Oliver stijn</h5>
+                       <p class="text-muted mb-0">Board Chairman</p>
                      </div>
                    </div>
                  </div>
@@ -1236,8 +1237,8 @@
                        </a>
                      </div>
                      <div class="mt-3">
-                       <h5 class="card-title mb-0">Monroe Parker</h5>
-                       <p class="text-muted mb-0">CTO</p>
+                       <h5 class="card-title mb-0">Elena Mason</h5>
+                       <p class="text-muted mb-0">Director of Financial Operations</p>
                      </div>
                    </div>
                  </div>
@@ -1249,8 +1250,8 @@
                        </a>
                      </div>
                      <div class="mt-3">
-                       <h5 class="card-title mb-0">John Sullivan</h5>
-                       <p class="text-muted mb-0">CTO</p>
+                       <h5 class="card-title mb-0">Alan C Fredrick</h5>
+                       <p class="text-muted mb-0">Head, Client Relations</p>
                      </div>
                    </div>
                  </div>
@@ -1262,8 +1263,8 @@
                        </a>
                      </div>
                      <div class="mt-3">
-                       <h5 class="card-title mb-0">James Lewis</h5>
-                       <p class="text-muted mb-0">CTO</p>
+                       <h5 class="card-title mb-0">Maurits Bjorn</h5>
+                       <p class="text-muted mb-0">Chief Technical Operator(CTO)</p>
                      </div>
                    </div>
                  </div>
@@ -1534,7 +1535,8 @@
                   <div class="container">
                     <div class="mb-5 text-center">
                       <h3 class=" mt-4"><?php echo e($blogCaption->data_values->title ? @$blogCaption->data_values->title:'In The New'); ?></h3>
-                      <p><?php echo e($blogCaption->data_values->short_details? @$blogCaption->data_values->short_details :''); ?></p>
+                      <div class="fluid-paragraph mt-3">
+                  <p class="lead lh-180"><?php echo e($blogCaption->data_values->short_details? @$blogCaption->data_values->short_details :''); ?></p></div>
                     </div>
 
                     <div class="row">
@@ -1576,34 +1578,34 @@
           <section class="slice">
             <div class="container">
               <div class="mb-5 text-center">
-                <h3 class=" mt-4">Trusted by over 10.000 clients</h3>
+                <h3 class=" mt-4">Our Partners</h3>
                 <div class="fluid-paragraph mt-3">
-                  <p class="lead lh-180">Start building fast, beautiful and modern looking websites in no time using our theme.</p>
+                  <p class="lead lh-180">Over the years, we’ve partnered with a number of trustees and community ICOs thus boosting our presence amidst top projects on the blockchain and Ethereum network.</p>
                 </div>
               </div>
               <div class="hover-blurable">
                 <a href="#">
                   <div class="blurable-item client-group row justify-content-center">
                     <div class="client col-lg-2 col-md-3 col-4 py-3">
-                      <img alt="Image placeholder" src="assets_new/img/clients/svg/amazon-gray.svg">
+                      <img alt="Image placeholder" src="assets_new/img/clients/svg/xrp-xrp-logo.png">
                     </div>
                     <div class="client col-lg-2 col-md-3 col-4 py-3">
-                      <img alt="Image placeholder" src="assets_new/img/clients/svg/spotify-gray.svg">
+                      <img alt="Image placeholder" src="assets_new/img/clients/svg/storj-storj-logo.png">
                     </div>
                     <div class="client col-lg-2 col-md-3 col-4 py-3">
-                      <img alt="Image placeholder" src="assets_new/img/clients/svg/airbnb-gray.svg">
+                      <img alt="Image placeholder" src="assets_new/img/clients/svg/ethereum-classic-etc-logo.png">
                     </div>
                     <div class="client col-lg-2 col-md-3 col-4 py-3">
-                      <img alt="Image placeholder" src="assets_new/img/clients/svg/paypal-gray.svg">
+                      <img alt="Image placeholder" src="assets_new/img/clients/svg/uniswap-uni-logo.png">
                     </div>
                     <div class="client col-lg-2 col-md-3 col-4 py-3">
-                      <img alt="Image placeholder" src="assets_new/img/clients/svg/slack-gray.svg">
+                      <img alt="Image placeholder" src="assets_new/img/clients/svg/binance-coin-bnb-logo.png">
                     </div>
                     <div class="client col-lg-2 col-md-3 col-4 py-3">
-                      <img alt="Image placeholder" src="assets_new/img/clients/svg/airbnb-gray.svg">
+                      <img alt="Image placeholder" src="assets_new/img/clients/svg/pancakeswap-cake-logo.png">
                     </div>
                   </div>
-                  <span class="blurable-hidden btn btn-sm btn-primary rounded-pill">See all customers</span>
+                  <span class="blurable-hidden btn btn-sm btn-primary rounded-pill">See all partners</span>
                 </a>
               </div>
             </div>
@@ -1620,9 +1622,9 @@
         <div class="row pt-md">
           <div class="col-lg-4 mb-5 mb-lg-0">
             <a href="<?php echo e(url('/')); ?>">
-              <img src="assets_new/img/brand/white.png" alt="Footer logo" style="height: 70px;">
+              <img src="assets_new/img/brand/white.png" alt="Footer logo" style="height: 120px;">
             </a>
-            <p>Purpose is a unique and beautiful collection of UI elements that are all flexible and modular. A complete and customizable solution to building the website of your dreams.</p>
+            <p>Florie Invest is a subsidiary of Florie Pensions dedicated to providing top class expertise in procuring profit for clients via our yield farming protocols and expert indulgence in the blockchain and DeFi network.</p>
           </div>
           <div class="col-lg-2 col-6 col-sm-4 ml-lg-auto mb-5 mb-lg-0">
             <h6 class="heading mb-3">Account</h6>
@@ -1662,7 +1664,7 @@
         <div class="row align-items-center justify-content-md-between py-4 mt-4 delimiter-top">
           <div class="col-md-6">
             <div class="copyright text-sm font-weight-bold text-center text-md-left">
-              &copy; 2018-2019 <a href="https://webpixels.io" class="font-weight-bold" target="_blank">Webpixels</a>. All rights reserved.
+              &copy; 2020-2021 <a href="https://florie.net" class="font-weight-bold" target="_blank">Florie</a>. All rights reserved.
             </div>
           </div>
           <div class="col-md-6">
@@ -1708,7 +1710,7 @@
                     <strong class="modal-title" id="ModalLabel">
 
                         <?php if(auth()->guard()->guest()): ?>
-                            <?php echo app('translator')->get('At First Sign In your Account'); ?>
+                            <?php echo app('translator')->get('You must sign in to your Account'); ?>
                         <?php else: ?>
                             <?php echo app('translator')->get('Confirm to invest on'); ?> <span class="planName"></span>
                         <?php endif; ?>
@@ -1762,7 +1764,7 @@
 
                         <div class="modal-footer">
                             <a href="<?php echo e(route('user.login')); ?>" type="button"
-                               class="btn btn-success custom-success"><?php echo app('translator')->get('Please, Signin your account at first'); ?></a>
+                               class="btn btn-success custom-success"><?php echo app('translator')->get('Please, Sign in to your account first'); ?></a>
                         </div>
                     <?php endif; ?>
                 </form>
